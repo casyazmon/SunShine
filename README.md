@@ -8,7 +8,6 @@ This app has the fellowing features:
 #2 Weather Forecast
 #3 Detail view of weather condition
 
-This project is divided into lessons, so that students can
-easily grap the concepts and the understand the code base.
+
 
 
