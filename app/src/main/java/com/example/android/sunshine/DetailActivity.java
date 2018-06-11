@@ -32,13 +32,9 @@ public class DetailActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * Uses the ShareCompat Intent builder to create our Forecast intent for sharing. We set the
-     * type of content that we are sharing (just regular text), the text itself, and we return the
-     * newly created Intent.
-     *
-     * @return The Intent to use to start our share.
-     */
+    // COMPLETED (3) Create a menu with an item with id of action_share
+    // COMPLETED (4) Display the menu and implement the forecast sharing functionality
+
     private Intent createShareForecastIntent() {
         Intent shareIntent = ShareCompat.IntentBuilder.from(this)
                 .setType("text/plain")
